@@ -1,0 +1,370 @@
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+input[type=text] {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  border: none;
+  margin: 2%;
+  font-size: 1.3em;
+}
+
+.add-journey-page-block {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1285px;
+  flex-shrink: 0;
+}
+.add-journey-page-subtitle1 {
+  font: 700 20px/1.2 "Clash Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.add-journey-page-subtitle1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 48px 0px 1213px 75px;
+}
+.add-journey-page-block-spacer {
+  flex: 0 1 48px;
+}
+.add-journey-page-block-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 421px;
+}
+.add-journey-page-flex {
+  display: flex;
+  flex-direction: column;
+}
+.add-journey-page-flex.layout {
+  position: relative;
+  height: min-content;
+  margin: 106px 0px 165px;
+}
+.add-journey-page-hero-title {
+  font: 700 64px/1.2 "Clash Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.add-journey-page-hero-title.layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 1px;
+}
+.add-journey-page-text-body {
+  font: 14px/1.2 "SF Pro Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.add-journey-page-text-body.layout {
+  position: relative;
+  height: min-content;
+  margin: 101px 1px 0px;
+}
+.add-journey-page-group {
+  display: flex;
+  flex-direction: column;
+}
+.add-journey-page-group.layout {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 30px 28.74% 0px 0%;
+}
+.add-journey-page-box1 {
+  border: 1px solid rgb(2, 0, 15);
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+}
+.add-journey-page-box1.layout {
+  position: absolute;
+  top: 0px;
+  height: 51px;
+  left: 0px;
+  right: 0px;
+  margin: 9px 0px 0px;
+}
+.add-journey-page-block10 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block10.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 27.67%;
+  margin: 0px 67.67% 0px 4.67%;
+}
+.add-journey-page-highlights {
+  font: 16px/1.2 "SF Pro Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.add-journey-page-highlights.layout {
+  position: relative;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 0px 0px 1px;
+}
+.add-journey-page-group.layout1 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block9 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block9.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 7.33%;
+  margin: 0px 88% 0px 4.67%;
+}
+.add-journey-page-group.layout2 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 19px 28.74% 0px 0%;
+}
+.add-journey-page-block8 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block8.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 12.33%;
+  margin: 0px 83% 0px 4.67%;
+}
+.add-journey-page-group.layout3 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block7 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block7.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 37.67%;
+  margin: 0px 57.67% 0px 4.67%;
+}
+.add-journey-page-group.layout4 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block6 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block6.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 28%;
+  margin: 0px 67.33% 0px 4.67%;
+}
+.add-journey-page-group.layout5 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block5.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 36.67%;
+  margin: 0px 58.67% 0px 4.67%;
+}
+.add-journey-page-group.layout6 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block4.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 30.67%;
+  margin: 0px 64.67% 0px 4.67%;
+}
+.add-journey-page-group.layout7 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block3.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 54%;
+  margin: 0px 41.33% 0px 4.67%;
+}
+.add-journey-page-group.layout8 {
+  position: relative;
+  height: 60px;
+  width: 71.26%;
+  margin: 20px 28.74% 0px 0%;
+}
+.add-journey-page-block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.add-journey-page-block2.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 53%;
+  margin: 0px 42.33% 0px 4.67%;
+}
+.add-journey-page-block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 87, 7);
+  box-shadow: 12px 23px 91px 0px rgba(247, 87, 6, 0.3294117647);
+  border-radius: 20px 20px 20px 20px;
+}
+.add-journey-page-block1.layout {
+  position: relative;
+  height: min-content;
+  width: 71.26%;
+  margin: 30px 28.74% 0px 0%;
+}
+.add-journey-page-subtitle {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 20px/1.2 "SF Pro Display";
+  color: rgb(255, 255, 255);
+  text-align: right;
+  letter-spacing: 0px;
+  background-color: inherit;
+  border: inherit;
+}
+.add-journey-page-subtitle.layout {
+  position: relative;
+  height: min-content;
+  width: 35%;
+  margin: 18px auto;
+}
+.add-journey-page-block-spacer1 {
+  flex: 0 1 144px;
+}
+.add-journey-page-block-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 720px;
+}
+.add-journey-page-group.layout9 {
+  position: relative;
+  height: 1285px;
+}
+.add-journey-page-box {
+  background-color: rgb(235, 248, 253);
+}
+.add-journey-page-box.layout {
+  position: absolute;
+  top: 0px;
+  height: 1285px;
+  left: 0px;
+  right: 0px;
+}
+.add-journey-page-image {
+  background: var(--src) center center/contain no-repeat;
+}
+.add-journey-page-image.layout {
+  position: absolute;
+  top: 0px;
+  height: 445px;
+  left: 0px;
+  right: 0px;
+  width: 70.83%;
+  margin: 290px auto 550px;
+}

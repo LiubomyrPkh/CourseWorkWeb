@@ -1,0 +1,332 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  border: none;
+  margin: 2%;
+  font-size: 1.3em;
+  height: 80%;
+}
+
+input[type=checkbox] {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  height: 18px;
+  width: 18px;
+}
+
+.registration-page-block {
+  display: flex;
+  background-color: rgb(253, 253, 253);
+}
+.registration-page-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1024px;
+  flex-shrink: 0;
+}
+.registration-page-subtitle1 {
+  font: 700 20px/1.2 "Clash Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.registration-page-subtitle1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 48px 0px 952px 75px;
+}
+.registration-page-block-spacer {
+  flex: 0 1 48px;
+}
+.registration-page-block-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 553px;
+}
+.registration-page-flex {
+  display: flex;
+  flex-direction: column;
+}
+.registration-page-flex.layout {
+  position: relative;
+  height: min-content;
+  margin: 106px 11px 255px 0px;
+}
+.registration-page-hero-title {
+  font: 700 64px/1.2 "Clash Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.registration-page-hero-title.layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 1px;
+}
+.registration-page-text-body1-box.layout {
+  position: relative;
+  height: min-content;
+  margin: 101px 0px 0px;
+}
+.registration-page-text-body1 {
+  font: 14px/1.2 "SF Pro Display";
+  color: rgb(0, 0, 0);
+  letter-spacing: 0px;
+}
+.registration-page-text-body1-span0 {
+  font: 1em/1.2 "SF Pro Display";
+  color: #02000e;
+  letter-spacing: 0px;
+}
+.registration-page-text-body1-span1 {
+  font: 1em/1.2 "SF Pro Display";
+  color: #f75707;
+  letter-spacing: 0px;
+}
+.registration-page-group {
+  display: flex;
+  flex-direction: column;
+}
+.registration-page-group.layout {
+  position: relative;
+  height: 60px;
+  width: 55.35%;
+  margin: 30px 44.65% 0px 0%;
+}
+.registration-page-box1 {
+  border: 1px solid rgb(2, 0, 15);
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+}
+.registration-page-box1.layout {
+  position: absolute;
+  top: 0px;
+  height: 51px;
+  left: 0px;
+  right: 0px;
+  margin: 9px 0px 0px;
+}
+.registration-page-block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.registration-page-block5.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 26.06%;
+  margin: 0px 69.38% 0px 4.56%;
+}
+.registration-page-highlights {
+  font: 16px/1.2 "SF Pro Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.registration-page-highlights.layout {
+  position: relative;
+  height: min-content;
+  min-width: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 0px 0px 1px;
+}
+.registration-page-group.layout1 {
+  position: relative;
+  height: 60px;
+  width: 55.35%;
+  margin: 20px 44.65% 0px 0%;
+}
+.registration-page-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.registration-page-block4.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 24%;
+  margin: 0px 71.33% 0px 4.67%;
+}
+.registration-page-group.layout2 {
+  position: relative;
+  height: 60px;
+  width: 55.35%;
+  margin: 19px 44.65% 0px 0%;
+}
+.registration-page-block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.registration-page-block3.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 14.67%;
+  margin: 0px 80.67% 0px 4.67%;
+}
+.registration-page-group.layout3 {
+  position: relative;
+  height: 60px;
+  width: 55.35%;
+  margin: 20px 44.65% 0px 0%;
+}
+.registration-page-cover-block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(2, 0, 15);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.registration-page-cover-block.layout {
+  position: absolute;
+  top: 9px;
+  height: 80%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.registration-page-icon1 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.registration-page-block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.registration-page-block2.layout {
+  position: absolute;
+  top: 0px;
+  height: min-content;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  width: 22.33%;
+  margin: 0px 73% 0px 4.67%;
+}
+.registration-page-flex1 {
+  display: flex;
+}
+.registration-page-flex1.layout {
+  position: relative;
+  height: min-content;
+  margin: 25px 0px 0px;
+}
+.registration-page-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 24px;
+}
+.registration-page-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+.registration-page-icon.layout {
+  position: relative;
+  min-width: 24px;
+}
+.registration-page-flex1-spacer {
+  flex: 0 1 10px;
+}
+.registration-page-text-body {
+  font: 14px/1.2 "SF Pro Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: -0.1px;
+}
+.registration-page-text-body.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 4px 0px 3px;
+}
+.registration-page-block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 87, 7);
+  box-shadow: 12px 23px 91px 0px rgba(247, 87, 6, 0.3294117647);
+  border-radius: 20px 20px 20px 20px;
+}
+.registration-page-block1.layout {
+  position: relative;
+  height: min-content;
+  width: 55.35%;
+  margin: 30px 44.65% 0px 0%;
+}
+.registration-page-subtitle {
+  font: 700 20px/1.2 "SF Pro Display";
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.registration-page-subtitle.layout {
+  position: relative;
+  height: min-content;
+  width: 61%;
+  margin: 18px auto;
+  background-color: inherit;
+  color: white;
+  border: inherit;
+}
+.registration-page-block-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 732px;
+}
+.registration-page-cover-block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 248, 253);
+}
+.registration-page-cover-block1.layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 12px;
+}
+.registration-page-image {
+  background: var(--src) center center/contain no-repeat;
+}
+.registration-page-image.layout {
+  position: relative;
+  height: 500px;
+  width: 69.44%;
+  margin: 262px auto;
+}

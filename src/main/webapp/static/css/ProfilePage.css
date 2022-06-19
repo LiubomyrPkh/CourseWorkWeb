@@ -1,0 +1,318 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+input[type=text] {
+  width: 100%;
+  border: none;
+}
+
+.massage {
+  margin: 15px auto 0 auto;
+}
+
+.error {
+  margin: 15px auto 0 auto;
+  color: red;
+}
+
+.profile-page-block1 input[type=submit] {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 87, 7);
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  font: 700 18px/1.33 "SF Pro Display";
+  border: none;
+  color: rgb(2, 0, 14);
+  align-items: center;
+  margin-top: 30px;
+  height: 2em;
+  justify-content: center;
+}
+
+.profile-page-flex2 input[type=submit] {
+  border: none;
+  background: white;
+}
+
+.profile-page-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 253, 253);
+}
+.profile-page-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1024px;
+  flex-shrink: 0;
+}
+.profile-page-flex {
+  display: flex;
+  flex-direction: column;
+}
+.profile-page-flex.layout {
+  position: relative;
+  height: min-content;
+  width: 89.58%;
+  margin: 28px auto;
+}
+.profile-page-flex1 {
+  display: flex;
+}
+.profile-page-flex1.layout {
+  position: relative;
+  height: min-content;
+}
+.profile-page-subtitle1 {
+  font: 700 20px/1.2 "Clash Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.profile-page-subtitle1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 22px 0px 24px;
+}
+.profile-page-flex1-spacer {
+  flex: 0 1 392px;
+}
+.profile-page-highlights3 {
+  font: 16px/1.2 "Inter";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.profile-page-highlights3.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 25px 0px;
+}
+.profile-page-flex1-spacer1 {
+  flex: 0 1 55px;
+}
+.profile-page-flex1-spacer2 {
+  flex: 0 1 13px;
+}
+.profile-page-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 7px;
+}
+.profile-page-image {
+  background: var(--src) center center/contain no-repeat;
+}
+.profile-page-image.layout {
+  position: relative;
+  height: 3px;
+  width: 7px;
+  min-width: 7px;
+  margin: 34px 0px 33px;
+}
+.profile-page-flex1-spacer3 {
+  flex: 0 1 54px;
+}
+.profile-page-flex1-spacer4 {
+  flex: 0 1 56px;
+}
+.profile-page-flex1-spacer5 {
+  flex: 0 1 363px;
+}
+.profile-page-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 70px;
+}
+.profile-page-cover-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+}
+.profile-page-cover-block.layout {
+  position: relative;
+  height: min-content;
+}
+.profile-page-icon2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.profile-page-icon2.layout {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  min-width: 30px;
+  margin: 20px;
+}
+.profile-page-group {
+  display: flex;
+  flex-direction: column;
+}
+.profile-page-group.layout {
+  position: relative;
+  height: 128px;
+  width: 11.09%;
+  margin: 80px auto 0px;
+}
+.profile-page-icon1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.profile-page-icon1.layout {
+  position: absolute;
+  top: 0px;
+  height: 128px;
+  left: 0px;
+  width: 128px;
+  min-width: 128px;
+  margin: 0px 15px 0px 0px;
+}
+.profile-page-icon2.layout1 {
+  position: absolute;
+  top: 0px;
+  height: 30px;
+  width: 30px;
+  min-width: 30px;
+  right: 0px;
+  margin: 14px 0px 84px;
+}
+.profile-page-subtitle {
+  display: flex;
+  justify-content: center;
+  font: 700 20px/1.2 "SF Pro Display";
+  color: rgb(247, 87, 7);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.profile-page-subtitle.layout {
+  position: relative;
+  height: min-content;
+  width: 70px;
+  min-width: 70px;
+  margin: 24px auto 0px;
+}
+.profile-page-block1 {
+  display: flex;
+  flex-direction: column;
+}
+.profile-page-block1.layout {
+  position: relative;
+  height: min-content;
+  width: 21.63%;
+  margin: 48px auto 0px;
+}
+.profile-page-highlights2 {
+  font: 700 18px/1.33 "SF Pro Display";
+  color: rgb(2, 0, 14);
+  letter-spacing: 0px;
+}
+.profile-page-highlights2.layout {
+  position: relative;
+  height: min-content;
+}
+.profile-page-group.layout1 {
+  position: relative;
+  height: min-content;
+  margin: 15px 0px 8px;
+}
+.profile-page-line {
+  background-color: rgb(69, 66, 91);
+}
+.profile-page-line.layout {
+  position: absolute;
+  height: 1px;
+  bottom: -9px;
+  left: 0px;
+  right: 0px;
+}
+.profile-page-highlights1 {
+  font: 16px/1.5 "SF Pro Display";
+  color: rgb(69, 66, 91);
+  letter-spacing: 0px;
+}
+.profile-page-highlights1.layout {
+  position: relative;
+  height: min-content;
+}
+.profile-page-block1.layout1 {
+  position: relative;
+  height: min-content;
+  width: 21.63%;
+  margin: 35px auto 0px;
+}
+.profile-page-group.layout2 {
+  position: relative;
+  height: min-content;
+  margin: 15px 0px 8px;
+}
+.profile-page-block1.layout2 {
+  position: relative;
+  height: min-content;
+  width: 21.63%;
+  margin: 35px auto 0px;
+}
+.profile-page-group.layout3 {
+  position: relative;
+  height: min-content;
+  margin: 15px 0px 8px;
+}
+.profile-page-block1.layout3 {
+  position: relative;
+  height: min-content;
+  width: 21.63%;
+  margin: 35px auto 0px;
+}
+.profile-page-group.layout4 {
+  position: relative;
+  height: min-content;
+  margin: 15px 0px 8px;
+}
+.profile-page-flex2 {
+  display: flex;
+}
+.profile-page-flex2.layout {
+  position: relative;
+  height: min-content;
+  width: 21.71%;
+  margin: 70px auto 64px;
+}
+.profile-page-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 24px;
+}
+.profile-page-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+.profile-page-icon.layout {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+}
+.profile-page-flex2-spacer {
+  flex: 0 1 12px;
+}
+.profile-page-highlights {
+  font: 700 16px/1.5 "SF Pro Display";
+  color: rgb(247, 87, 7);
+  letter-spacing: 0px;
+}
+.profile-page-highlights.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+}
